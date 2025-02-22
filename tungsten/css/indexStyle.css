@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background-color: #cfcfcf;
+    
+}
+header {
+    display: flex;
+    background-color: #767980;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+    
+}
+header ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+header h2 {
+    color: #292a2c;
+    font-weight: 50;
+    font-size: 50px;
+    font-family: Impact;
+}
+
+header ul li a {
+    
+    text-decoration: none;
+    color: white;
+    background-color: #6d6f7e;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 40px;
+    font-weight: 0;
+    margin-right: 50px;
+    font-family:"Lato", serif;
+    
+  }
+
+header ul li a:hover{
+    background-color: #424455;
+}
+  
+
+main {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    padding: 250px 0px;
+}
+
+
+.main_text{
+    font-size: 42px;
+    margin-bottom:40px;
+}
+.main_text p {
+    font-size: 30px;
+    margin-bottom: 50px;
+
+}
+.main_text a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 1000;
+    color: white;
+    background-color: #292a2c;
+    padding: 10px 40px;
+    border-radius: 22px;
+}
+.main_text a:hover {
+    background-color: #3b3c3f;
+}
+
+.video_introduction{
+    display: flex;
+    justify-content: center;
+    margin: 100px
+}
+.author_name {
+    margin: 10px 20px;
+    font-family: "Lato", sherif;
+
+}
